@@ -9,7 +9,7 @@ class SampleContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.all(20),
-      padding: EdgeInsets.only(left: 30, right: 30),
+      padding: EdgeInsets.symmetric(horizontal: 50),
       height: 400,
       width: 400,
       decoration: BoxDecoration(

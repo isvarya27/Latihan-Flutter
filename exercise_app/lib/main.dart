@@ -1,4 +1,5 @@
 import 'package:exercise_app/widgets/sample_container.dart';
+import 'package:exercise_app/widgets/sample_text.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomepage(),
+      home: const SampleText(),
     );
   }
 }
